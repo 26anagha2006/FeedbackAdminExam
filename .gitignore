@@ -1,0 +1,10 @@
+﻿# Dependencies and build files
+**/node_modules/
+**/dist/
+
+# Private credentials
+backend/.env
+**/.env
+.env
+.env.*
+!backend/.env.example
