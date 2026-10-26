@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/feedback";
+const API = "https://feedback-admin-api-2ma1.onrender.com/api/feedback";
 
 function App() {
   const [feedback, setFeedback] = useState([]);
